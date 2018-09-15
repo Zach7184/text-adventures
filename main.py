@@ -45,7 +45,7 @@ def go(direction):
 
 while True:
     # Print out all the stuff related to the room
-    print(rooms[x][y].name)
+    print("At the " + rooms[x][y].name)
 
     # Get input from the user
     fromUser = input()
@@ -55,4 +55,4 @@ while True:
     elif fromUser.split()[0] == "go":
         go(fromUser.split()[1])
     else:
-        print("To start, type 'start'")
+        print("That didn't make any sense to me")
