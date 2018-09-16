@@ -15,8 +15,8 @@ rooms[1][1] = Room("End")
 
 x = START_X
 y = START_Y
-rooms[x][y]
 
+# Commands
 def go(direction):
     global x 
     global y 
