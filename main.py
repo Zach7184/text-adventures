@@ -18,27 +18,12 @@ def go(direction):
             print("There's a wall there")
         else:
             y += 1
-    elif direction == 'south':
-        if (y - 1) < 0:
-            print("There's a wall there")
-        else:
-            y -= 1
-    elif direction == 'west':
-        if (x - 1) < 0:
-            print("There's a wall there")
-        else:
-            x -= 1
-    elif direction == 'east':
-        if (x + 1) >= MAP_X:
-            print("There's a wall there")
-        else:
-            x += 1
+
     else:
         print("I don't understand which direction you're trying to go")
 
 while True:
     # Print out all the stuff related to the room
-    print("At the " + rooms[x][y].name)
 
     # Get input from the user
     fromUser = input()
