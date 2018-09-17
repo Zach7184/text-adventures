@@ -1,17 +1,10 @@
 from adventure import *
 
-# Constants
+# Variables
 START_X = 0
 START_Y = 0
-MAP_X = 2
-MAP_Y = 2
-
-# Variables
-rooms = [[0 for j in range(MAP_Y)] for i in range(MAP_X)]
-rooms[0][0] = Room("Start")
-rooms[0][1] = Room("Forest")
-rooms[1][0] = Room("Lake")
-rooms[1][1] = Room("End")
+MAP_X = 4
+MAP_Y = 8
 
 x = START_X
 y = START_Y
